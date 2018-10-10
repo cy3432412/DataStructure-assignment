@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+
+// add an annotation to test
 typedef struct  node{
 	char data;	//数据域
 	struct node *lchild ,  *rchild;  //左右孩子指针
@@ -77,7 +79,7 @@ void OutputBiTree(BinTree bt, int space)
 {
 	if(bt != NULL)      //当前根节点存在时,输出节点数据和左、右孩子数据
 	{
-		for(int i = 0;i<space;++i)    //打出空格 
+		for(int i = 0;i<space;++i)    //打出空格
 		{
 			printf(" ");
 		}
@@ -109,25 +111,25 @@ void OutputBiTree(BinTree bt, int space)
 
 void PreOrderTraverse(BinTree bt)
 {
-	
+
 }
 
 void InOrderTraverse(BinTree bt)
 {
-	
+
 }
 
 void PostOrderTraverse(BinTree bt)
 {
-	
+
 }
 
 void LevelOrderTraverse(BinTree bt)
 {
-	
+
 }
 
 void Path(BinTree bt)
 {
-	
+
 }
